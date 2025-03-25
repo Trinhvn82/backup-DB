@@ -1,9 +1,11 @@
+
+from datetime import datetime
 from git import Repo
 
 #PATH_OF_GIT_REPO = r'path\to\your\project\folder\.git'
 PATH_OF_GIT_REPO = './Trinhvn82/backup-DB.git'
   # make sure .git folder is properly configured
-COMMIT_MESSAGE = 'comment from python script'
+COMMIT_MESSAGE = 'python script update DB back-up at: ' + str(datetime.now())
 
 def git_push():
 #    try:
