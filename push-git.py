@@ -8,7 +8,7 @@ COMMIT_MESSAGE = 'comment from python script'
 def git_push():
 #    try:
 #    repo = Repo(PATH_OF_GIT_REPO)
-    repo = Repo('tmp\.git')
+    repo = Repo()
     repo.index.add(['*'])
     #repo.git.add(update=True)
     repo.index.commit(COMMIT_MESSAGE)
