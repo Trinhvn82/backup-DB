@@ -1,0 +1,1 @@
+python backup_psql.py --configfile psql.config --action backup --verbose VERBOSE
