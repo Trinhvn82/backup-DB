@@ -21,7 +21,7 @@ from shutil import move
 
 AWS_BUCKET_NAME = 'backup.mydomain.com'
 AWS_BUCKET_PATH = 'postgres/'
-BACKUP_PATH = './tmp/'
+BACKUP_PATH = './'
 
 
 def upload_to_s3(file_full_path, dest_file):
